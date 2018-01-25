@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="cabecera">
+
+        <item name="android:layout_height">@dimen/d150</item>
+        <item name="android:background">@drawable/cabeceraverde</item>
+        <item name="android:layout_margin">@dimen/d15</item>
+
+
+    </style>
+
+    <!--  android:text="Button"
+android:textColor="#FFFFFF"
+android:textSize="30sp"
+
+android:layout_width="270dp"
+android:layout_height="60dp"
+android:background="@drawable/buttonshape"
+android:shadowColor="#A3A811"
+android:shadowDx="0"
+android:shadowDy="0"
+android:shadowRadius="5" -->
+
+    <style name="botonbase">
+
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/d15</item>
+        <item name="android:layout_width">@dimen/d100</item>
+        <item name="android:layout_height">@dimen/d40</item>
+        <item name="android:layout_marginBottom">@dimen/d15</item>
+        <item name="android:layout_marginTop">@dimen/d15</item>
+        <item name="android:layout_marginLeft">@dimen/d5</item>
+        <item name="android:layout_marginRight">@dimen/d5</item>
+        <item name="android:background">@drawable/botonbase</item>
+        <item name="android:shadowColor">#A3A811</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+
+    </style>
+
+    <style name="botonesvertical" parent="botonbase">
+
+        <item name="android:layout_width">@dimen/d100</item>
+        <item name="android:layout_height">@dimen/d40</item>
+        <item name="android:layout_marginBottom">@dimen/d15</item>
+        <item name="android:layout_marginTop">@dimen/d15</item>
+        <item name="android:layout_marginLeft">@dimen/d5</item>
+        <item name="android:layout_marginRight">@dimen/d5</item>
+
+    </style>
+
+    <style name="botoneshorizontal" parent="botonbase">
+
+
+
+    </style>
+    <style name="botonfinal" parent="botonbase">
+
+        <item name="android:drawable">@drawable/estadosboton</item>
+
+    </style>
+
+    <style name="layouttexto">
+
+        <item name="android:background">@drawable/fondotexto</item>
+        <item name="android:padding">@dimen/d15</item>
+
+    </style>
+
+
+
+
+</resources>
